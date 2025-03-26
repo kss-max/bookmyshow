@@ -1,0 +1,33 @@
+
+:root {
+    --bms-red: #f84464;
+    --bms-dark: #1a1a1a;
+    --bms-light: #f8f9fa;
+  }
+  
+  
+  .bg-primary {
+    background-color: var(--bms-red) !important;
+  }
+  
+  .btn-primary {
+    background-color: var(--bms-red);
+    border-color: var(--bms-red);
+  }
+  
+  
+  .bms-shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bms-radius-sm {
+    border-radius: 4px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .bms-mobile-padding {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }

@@ -1,0 +1,23 @@
+
+.bms-movie-card {
+    transition: transform 0.3s ease;
+    border: none !important;
+    overflow: hidden;
+  }
+  
+  .bms-movie-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .bms-movie-card .card-img-top {
+    height: 380px;
+    object-fit: cover;
+  }
+  
+  .bms-movie-card .card-body {
+    padding: 1.25rem 1rem;
+  }
+  
+  .bms-movie-card .btn {
+    width: 100%;
+  }
